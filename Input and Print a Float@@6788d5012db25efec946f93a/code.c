@@ -1,10 +1,8 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    printf("%f", welcome());
+    int n;
+    scanf("%f",&n);
+    printf("%f", n);
     return 0;
 }
