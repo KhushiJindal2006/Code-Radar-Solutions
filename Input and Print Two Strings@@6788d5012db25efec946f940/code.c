@@ -5,6 +5,6 @@ int main() {
     char str2[100];
     scanf("%s",&str1);
     scanf("%s",&str2);
-    print("You entered: %s and %s",str1,str2)
+    print("You entered: %s and %s",str1,str2);
     return 0;
 }
