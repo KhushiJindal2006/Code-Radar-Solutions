@@ -3,7 +3,7 @@
 
 int main() {
     float r;
-    scanf("%r",&r);
+    scanf("%f",&r);
 
     const float pi=3.14;
 
