@@ -5,6 +5,10 @@ int main() {
     int n;
     char str2[100];
 
+    scanf("%s",&str1);
+    scanf("%d",&n);
+    scanf("%s",&str2);
+
     printf("Name: %s",str1);
     printf("Age: %d",n);
     printf("Hobby: %s",str2);
