@@ -4,7 +4,16 @@ int main() {
     int a,b;
     char d;
     if(d=='+'){
-        printf(a+b);
+        printf("%d",a+b);
+    }
+    else if(d=='-'){
+        printf("%d",a-b);
+    }
+    else if(d=='*'){
+        printf("%d",a*b);
+    }
+    else if(d=='/'){
+        printf("%d",a/b);
     }
     return 0;
 }
