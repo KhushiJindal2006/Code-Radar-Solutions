@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    sacnf("%d",&n);
+    scanf("%d",&n);
     if(n<=1){
         printf("Not Prime");
     }
