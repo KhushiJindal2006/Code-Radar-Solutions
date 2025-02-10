@@ -6,7 +6,9 @@ int main() {
     int bit;
     for(int i=31;i>=0;i--){
         bit=(num>>i)&1;
-        printf("%d",bit);
+        if(bit==1) start=1;
+        if(start) printf("%d",bit);
     }
+    if (!start) printf("0");
     return 0;
 }
