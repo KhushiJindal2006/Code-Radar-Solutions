@@ -8,6 +8,5 @@ int main() {
         bit=(num>>i)&1;
         printf("%d",bit);
     }
-    printf("\n");
     return 0;
 }
