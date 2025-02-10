@@ -7,12 +7,17 @@ int main() {
     for(int i=31;i>=0;i--){
         bit=(num>>i)&1;
         if(bit==1){
- start=1;
+            start=1;
         }
+        else {
+            start=0;
+        }
+    }
         if(start){
             printf("%d",bit);
         }
-    }
-    if (!start) printf("0");
+        else {
+            printf("0");
+        }
     return 0;
 }
