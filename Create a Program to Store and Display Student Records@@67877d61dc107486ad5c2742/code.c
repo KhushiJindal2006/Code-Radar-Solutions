@@ -10,4 +10,5 @@ int main(){
         scanf("%d %s %d",roll_num,name,marks);
         printf("Roll Number: %d, Name: %s, Marks: %d\n",roll_num,name,marks);
     }
+    return 0;
 }
