@@ -8,6 +8,6 @@ int main(){
         char name[];
         int marks;
         scanf("%d %s %d",roll_num,name,marks);
-        printf("Roll Number: %d, Name: name, Marks: marks\n",%d,%s,%d);
+        printf("Roll Number: %d, Name: %s, Marks: %d\n",roll_num,name,marks);
     }
 }
