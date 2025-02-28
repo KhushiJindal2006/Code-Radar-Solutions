@@ -13,11 +13,11 @@ int main(){
             issorted=0;
             break;
         }
-       if(issorted){
+    }
+    if(issorted){
         printf("Sorted");
        } 
        else {
         printf("Not Sorted");
        }
-    }
 }
