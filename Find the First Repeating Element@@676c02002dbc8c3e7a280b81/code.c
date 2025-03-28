@@ -9,7 +9,7 @@ int main(){
     }
     int temp=-1;
     int found=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n && !found;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
             temp=arr[i];
