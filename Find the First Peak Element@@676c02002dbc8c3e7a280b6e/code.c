@@ -16,7 +16,7 @@ int main(){
         printf("%d",a[i]);
         return 0;
        }
-       else if(i>0 && i<n-1 && a[i]>a[i-1]){
+       else if(i>0 && i<n-1 && a[i]>a[i-1] && a[i]>a[i+1]){
         printf("%d",a[i]);
         return 0;
        }
