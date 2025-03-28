@@ -1,5 +1,5 @@
 // Your code here...
-#incude<stdio.h>
+#include<stdio.h>
 int main(){
     int n;
     int a[100];
