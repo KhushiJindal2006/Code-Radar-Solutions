@@ -7,19 +7,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int evenos=-100000;
+    int evenos=-1;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            if(arr[i]>evenos){
+            if(evenos==-1 || arr[i]>evenos){
                 evenos=arr[i];
             }
         }
     }
-    if(evenos=-100000){
-        printf("-1");
-    }
-    else {
-        printf("%d",evenos);
-    }
+    printf("%d",evenos);
+    
     
 }
