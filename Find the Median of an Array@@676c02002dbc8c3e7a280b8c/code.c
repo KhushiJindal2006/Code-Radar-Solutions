@@ -16,13 +16,12 @@ int main(){
             }
         }
     }
+    int e=n/2;
     if(n%2==0){
-        int e=n/2;
         int avg=(arr[e-1]+arr[e])/2;
         printf("%d",avg);
     }
     else {
-        int e=n/2;
         printf("%d",arr[e]);
     }
 }
