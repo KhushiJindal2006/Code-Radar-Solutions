@@ -11,6 +11,7 @@ int isPrime(int x){
 }
 int main(){
     int n;
+    int count=0;
     int arr[n];
     scanf("%d",&n);
     for(int i=0;i<n;i++){
@@ -18,8 +19,9 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(isPrime(arr[i])){
-            printf("%d",arr[i]);
+            count++;
         }
     }
+    printf("%d",count);
     return 0;
 }
