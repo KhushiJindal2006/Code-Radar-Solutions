@@ -8,13 +8,13 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(a[i]%2==0){
-            int evenos=a[i];
+        if(arr[i]%2==0){
+            int evenos=arr[i];
         }
     }
     for(int i=0;i<n;i++){
-        if(a[i]%2==0)&&(a[i]>evenos){
-            printf("%d",a[i]);
+        if(arr[i]%2==0)&&(arr[i]>evenos){
+            printf("%d",arr[i]);
         }
     }
 }
