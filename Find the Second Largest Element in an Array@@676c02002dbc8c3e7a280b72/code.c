@@ -11,7 +11,7 @@ int main(){
     int second_largest=-1;
     for(int i=1;i<n;i++){
        if(arr[i]>largest){
-       largest=a[i];
+       largest=arr[i];
        }
     }
     for(int i=0;i<n;i++){
