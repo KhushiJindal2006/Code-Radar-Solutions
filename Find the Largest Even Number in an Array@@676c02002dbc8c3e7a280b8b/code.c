@@ -15,6 +15,11 @@ int main(){
             }
         }
     }
-    printf("%d",evenos);
+    if(evenos=-100000){
+        printf("-1");
+    }
+    else {
+        printf("%d",evenos);
+    }
     
 }
