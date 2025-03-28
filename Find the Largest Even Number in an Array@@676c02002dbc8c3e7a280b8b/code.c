@@ -13,7 +13,7 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        if(arr[i]%2==0)&&(arr[i]>evenos){
+        if((arr[i]%2==0)&&(arr[i]>evenos)){
             printf("%d",arr[i]);
         }
     }
