@@ -12,5 +12,8 @@ int main(){
         if((arr[i]%2==0)&&(arr[i]>evenos)){
             printf("%d",arr[i]);
         }
+        else {
+            printf("-1");
+        }
     }
 }
