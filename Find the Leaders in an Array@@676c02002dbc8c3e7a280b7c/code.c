@@ -16,7 +16,7 @@ int main(){
             }
         }
         if(isfound){
-            printf("%d",arr[i]);
+            printf("%d ",arr[i]);
         }
     }
 }
