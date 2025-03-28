@@ -22,7 +22,7 @@ int main(){
     if(second_smallest==100000){
         printf("-1");
     }
-    else if{
+    else {
         printf("%d",second_smallest);
     }
 }
