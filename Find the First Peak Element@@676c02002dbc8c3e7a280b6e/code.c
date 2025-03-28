@@ -10,10 +10,8 @@ int main(){
     for(int i=0;i<n;i++){
         if(a[i]>a[i+1] && a[i]>a[i-1]){
             printf("%d",a[i]);
-            break;
-        }
-        else {
-            printf("%d",-1);
+            return 0;;
         }
     }
+    printf("%d",-1);
 }
