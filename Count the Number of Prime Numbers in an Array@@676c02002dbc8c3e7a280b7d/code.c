@@ -11,7 +11,7 @@ int isPrime(int x){
 int main(){
     int n;
     int count=0;
-    int arr[n];
+    int arr[100];
     scanf("%d",&n);
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
