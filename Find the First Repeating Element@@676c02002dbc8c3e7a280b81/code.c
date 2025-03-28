@@ -8,10 +8,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int temp=-1;
+    int found=0
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;i++){
             if(arr[i]==arr[j]){
             temp=arr[i];
+            found=1;
             break;
             }
 
