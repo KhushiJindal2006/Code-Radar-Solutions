@@ -12,6 +12,6 @@ int main(){
             printf("%d",a[i]);
             break;
         }
-    }
     printf("%d",-1);
+    }
 }
