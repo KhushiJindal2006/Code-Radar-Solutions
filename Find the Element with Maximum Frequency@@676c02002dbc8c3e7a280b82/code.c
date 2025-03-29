@@ -17,7 +17,8 @@ int main(){
         }
         if(count>max_count){
             max_count=count;
-            max_count=arr[i];
+            max_element=arr[i];
         }
     }
+    printf("%d",max_element)
 }
