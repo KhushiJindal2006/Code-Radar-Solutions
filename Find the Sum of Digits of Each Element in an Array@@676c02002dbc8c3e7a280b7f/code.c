@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int sum_of_digits(int n){
-    n=abs(n);
+    if(n<0) n=-n;
     int sum=0;
     while(n>0){
         int digit=n%10;
