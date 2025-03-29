@@ -7,7 +7,7 @@ int ispalindrome(int num){
         reversed=reversed*10+remainder;
         num=num/10;
     }
-    return original=reversed;
+    return original==reversed;
 }
 int main(){
     int n;
