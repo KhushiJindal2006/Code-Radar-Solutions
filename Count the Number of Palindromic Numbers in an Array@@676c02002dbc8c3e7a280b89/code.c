@@ -19,7 +19,7 @@ int main(){
     }
     int count=0;
     for(int i=0;i<n;i++){
-        if(ispalindrome(arr[i])){
+        if((arr[i]ispalindrome){
             count++;
         }
     }
