@@ -2,7 +2,7 @@
 #include<stdio.h>
 int ispalindrome(int n){
     int original=n,reversed=0,remainder;
-    while(num>0){
+    while(n>0){
         remainder=n%10;
         reversed=reversed*10+remainder;
         n=n/10;
