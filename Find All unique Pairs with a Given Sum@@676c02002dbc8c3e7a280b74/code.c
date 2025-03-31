@@ -11,11 +11,10 @@ int main(){
     scanf("%d",&t);
 
     for(int i=0;i<n-1;i++){
+        if(i>0 && arr[i]==arr[i-1]) continue;
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==t){
                 printf("%d %d\n",arr[i],arr[j]);
-
-                arr[i]=arr[j]=-1;
                 break;
                 
             }
