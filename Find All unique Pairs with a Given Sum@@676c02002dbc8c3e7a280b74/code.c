@@ -17,7 +17,7 @@ int main(){
 
                 arr[i]=arr[j]=-1;
                 break;
-                return 0;
+                
             }
         }
     }
