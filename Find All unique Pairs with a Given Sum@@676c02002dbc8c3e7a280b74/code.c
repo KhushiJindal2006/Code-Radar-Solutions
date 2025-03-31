@@ -9,13 +9,12 @@ int main(){
     }
     int t;
     scanf("%d",&t);
-    
-    int isfound=0;
+
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==t){
                 printf("%d %d\n",arr[i],arr[j]);
-                isfound=1;
+                return 0;
             }
         }
     }
