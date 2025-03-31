@@ -8,7 +8,6 @@ int kthSmallest(int arr[],int n,int k){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
-                isfound=1;
             }
         }
     }
