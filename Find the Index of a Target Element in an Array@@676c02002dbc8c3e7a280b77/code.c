@@ -9,16 +9,13 @@ int main(){
     }
     int t;
     scanf("%d",&t);
- 
+    int temp=-1;
     for(int i=0;i<n;i++){
         if(arr[i]==t){
-            printf("%d",i);
-            return 0;
-        }
-        else {
-            printf("-1");
-            return 0;
-        }       
+            temp=i;
+            break;
+        }         
     }
+    printf("%d",temp);
     
 }
