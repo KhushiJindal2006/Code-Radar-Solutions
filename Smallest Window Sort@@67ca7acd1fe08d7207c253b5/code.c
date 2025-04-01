@@ -9,8 +9,8 @@ int findUnsortedSubarray(int arr[], int n) {
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
                 k++;
- 
              }
          }
      }
+     return k;
 }
