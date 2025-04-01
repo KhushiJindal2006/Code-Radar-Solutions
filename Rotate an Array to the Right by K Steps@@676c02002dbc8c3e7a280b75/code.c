@@ -10,6 +10,7 @@
      int k;
      scanf("%d",&k);
      if(n==0) return 0;
+     k=k%n;
      for ( int i=n-k;i<n;i++){
         printf("%d ",arr[i]);
      }
